@@ -8,11 +8,11 @@
     height: 2em;
 } 
 
-#wrap > header > .all_today_text > p {
+#wrap > header > .all_today_text > a {
     font-size: 1.125em;
 }
 
-#wrap > header > .all_today_text > p+p {
+#wrap > header > .all_today_text > .today {
     color: rgb(121, 121, 121);
 }
 
