@@ -6,14 +6,33 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>toDoList제작실습</title>
+    <!-- 웹 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- 웹글꼴 -->
     <link rel="shortcut icon" href="" type="image/x-icon"><!-- farvicon -->
     <link rel="stylesheet" href="./styles/index.css"><!-- css -->
 </head>
 
 <body>
-    
+    <div id="wrap">
+        <header>
+            <div class="title_menu"><!-- 1행 -->
+                <h1>To Do</h1>
+                <a class="search_menu_btn">
+                    <a href="#" class="search_icon_btn"><img src="./images/search_icon.svg" alt="검색하기"></a>
+                    <a href="#" class="menu_icon_btn"><img src="./images/menu.svg" alt="메뉴보기"></a>
+                </div>
+            </div>
+            <div class="all_today_text"><!-- 2행 -->
+                <a href="#" class="all active">All<span>(3)</span></a>
+                <a href="#" class="today">Today<span>(0)</span></a>
+            </div>
+        </header>
+        <main></main>
+    </div><!-- e:#wrap -->
 </body>
 
 </html>
