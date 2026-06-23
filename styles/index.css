@@ -1,1 +1,18 @@
 /* to_Do_List CSS */
+#wrap > header > .title_menu > h1 {
+    font-size: 1.125em;
+}
+
+#wrap > header > .title_menu > .search_menu_btn > a > img {
+    width: 2em;
+    height: 2em;
+} 
+
+#wrap > header > .all_today_text > p {
+    font-size: 1.125em;
+}
+
+#wrap > header > .all_today_text > p+p {
+    color: rgb(121, 121, 121);
+}
+
