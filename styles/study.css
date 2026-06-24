@@ -1,0 +1,130 @@
+/* CSS 복습 */
+#wrap {
+    width: 402px;
+    height: 874px;
+    padding: 45px 15px;
+    background-color: bisque;
+}
+
+/* header */
+#wrap > header {
+    margin-bottom: 13px;
+}
+
+#wrap > header > .title_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrap > header > .title_menu > .main_title {
+    
+}
+
+#wrap > header > .title_menu > .main_title > a {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+#wrap > header > .title_menu > .search_menu_btn {
+
+}
+
+#wrap > header > .title_menu > .search_menu_btn > .search_icon_btn {
+    margin-right: 8px;
+}
+
+#wrap > header > .title_menu > .search_menu_btn > .search_icon_btn > img {
+
+}
+
+
+#wrap > header > .title_menu > .search_menu_btn > .menu_icon_btn {
+
+}
+
+#wrap > header > .title_menu > .search_menu_btn > .menu_icon_btn > img{
+
+}
+
+/* ================================================e: 1행 */
+#wrap > header > .all_today_text {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+#wrap > header > .all_today_text >.all {
+    margin-right: 8px;
+    font-size: 1.125em;
+    color: #aaa;
+}
+
+#wrap > header > .all_today_text > .all > .num {
+    color: #aaa;
+}
+
+#wrap > header > .all_today_text > .active {
+    color: #000;
+    font-weight: 700;
+}
+
+#wrap > header > .all_today_text > .active > .num {
+    color: #000;
+    font-weight: 700;
+}
+
+#wrap > header > .all_today_text > .today {
+    font-weight: 700;
+    color: #aaa;
+}
+
+#wrap > header > .all_today_text > .today > .num {
+    color: #aaa;
+}
+
+/* ================================================e: 2행 */
+/* ================================================================e: header */
+
+#wrap > main {
+
+} 
+
+#wrap > main > .to_do_list {
+    
+}
+
+#wrap > main > .to_do_list >  li{
+    
+}
+
+#wrap > main > .to_do_list >  li > .date{
+    
+}
+
+#wrap > main > .to_do_list >  li > .contents{
+    
+}
+/* ================================================e: 리스트 목록*/
+#wrap > main > .write_btn {
+    
+}
+
+#wrap > main > .write_btn > img {
+    
+}
+/* ================================================e: 글쓰기 버튼*/
+#wrap > main > .write_popup {
+    
+}
+
+#wrap > main > .write_popup > .notice{
+    
+}
+
+#wrap > main > .write_popup .register_btn {
+    
+}
+
+#wrap > main > .write_popup .register_btn > img {
+    
+}
+/* ================================================e: 글 등록 버튼 & 내용*/
